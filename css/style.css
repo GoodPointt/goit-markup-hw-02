@@ -1,48 +1,103 @@
-.nav {
+body {
+	font-family: "Roboto", sans-serif;
 }
-.logo_link {
+
+a {
+	text-decoration: none;
+} 
+
+/* LOGO */
+.logo-link {
+	width: 71px;
+	height: 24px;
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #2e2f42;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
 }
-.logo_name1 {
+.logo-name {
+	width: 44px;
+	height: 24px;
+	color: #4d5ae5;
+	order: 0;
 }
-.nav_list {
+
+
+/* NAVIGATION */
+.nav-list {
+  list-style: none;
+}
+.nav-item {
+
+
+}
+
+.nav-link {font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.nav-link:hover {
+  color: #434455;
+}
+.nav-link:active {
+  color: #4D5AE5;
 }
 .nav_item {
 }
-.nav_link {
-}
-.header_contacts {
+.header-contacts {
 }
 .email {
 }
 .tel {
 }
-.main_header {
+
+/* MAIN PAGE */
+.section-1 {
 }
-.main_header_name {
-}
-.button {
-}
-.section_1 {
+.feature-list {
+  list-style: none;
 }
 .feature {
 }
-.section_header {
+.section-header {
 }
-.section_text {
+.section-text {
 }
-.section_2 {
+
+
+.filters {
 }
-.section_main_header {
+.filter-item {
 }
-.section2_img {
+.filter-btn {
 }
-.section_3 {
+.prjct-card-row {
+}
+.prjct-card-list {
+  list-style: none;
+}
+.prjct-card-item {
+}
+.section-header {
+}
+.section-text {
 }
 .footer {
 }
-.footer_block {
+.footer-block {
 }
-.logo_name2 {
-}
-.footer_text {
+.footer-text {
 }
