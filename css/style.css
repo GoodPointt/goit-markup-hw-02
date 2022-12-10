@@ -86,13 +86,16 @@ header {
 	background: #4d5ae5;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
+	cursor: pointer;
 }
+
 .hero-button:hover,
 .hero-button:focus {
 	background: #4d5ae5;
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 	border-radius: 4px;
 }
+
 .hero-button:active {
 	background: #404bbf;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -119,9 +122,11 @@ header {
 	text-transform: capitalize;
 	color: #2e2f42;
 }
+
 .section-3 {
 	background: #f4f4fd;
 }
+
 /* .team-list {
 	display: flex;
 	flex-direction: row;
@@ -132,6 +137,7 @@ header {
 } */
 
 .teammate {
+	background-color: #fff;
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 	border-radius: 0px 0px 4px 4px;
 }
@@ -152,9 +158,11 @@ header {
 .logo-name2 {
 	color: #f4f4fd;
 }
+
 footer {
 	background: #2e2f42;
 }
+
 .footer-text {
 	color: #e7e9fc;
 }
@@ -171,6 +179,7 @@ footer {
 	background: #f4f4fd;
 	border: 1px solid #e7e9fc;
 	border-radius: 4px;
+	cursor: pointer;
 }
 
 .filter-btn:hover,
