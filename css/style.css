@@ -10,13 +10,14 @@ body {
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
-	line-height: 24px;
+	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--primary-text-color);
 	background-color: var(--background-color);
 }
 .link {
 	text-decoration: none;
+  color: inherit;
 }
 .list {
 	list-style: none;
@@ -81,12 +82,13 @@ header {
 .hero-header {
 	font-weight: 600;
 	font-size: 56px;
-	line-height: 60px;
+	line-height: 1.07;
 	text-align: center;
 	color: #ffffff;
 }
 
 .hero-button {
+  font-weight: 600;
 	letter-spacing: 0.04em;
 	color: #ffffff;
 	background: var(--accent-color);
@@ -122,7 +124,7 @@ header {
 .section-main-header {
 	font-weight: 600;
 	font-size: 36px;
-	line-height: 40px;
+	line-height: 1.11;
 	text-align: center;
 	text-transform: capitalize;
 	color: var(--title-text-color);
@@ -203,13 +205,13 @@ footer {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.prjct-card-link > p {
+/* .prjct-card-link > p {
   color: var(--primary-text-color);
-}
+} */
 
-.prjct-card-text {
+/* .prjct-card-text {
   
-}
+} */
 
 /* .stylish-txt {
   color: #F4F4FD;
